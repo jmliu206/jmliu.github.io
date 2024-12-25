@@ -21,7 +21,7 @@ repository               : "https://github.com/jmliu206"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "jinming.jpg"
   name             : "Jinming Liu"
   pronouns         : # example: "she/her"  
   bio              : "Welcome to Jinming Liu's personal website."

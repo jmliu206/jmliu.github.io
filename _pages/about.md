@@ -9,7 +9,9 @@ redirect_from:
 
 # Jinming Liu (刘津铭)
 ## Biography
-This is Jinming Liu, I'm a second-year Ph.D. student at Shanghai Jiao Tong University (SJTU) and Eastern Institute for Advanced Study (EIT), advised by [Prof. Wenjun Zeng](https://scholar.google.com/citations?hl=zh-CN&user=_cUfvYQAAAAJ) and [Prof. Xin Jin](https://scholar.google.com/citations?user=byaSC-kAAAAJ&hl=zh-CN). Before that, I received my master degree from Waseda University under the supervision of [Prof. Jiro Katto](https://scholar.google.com/citations?user=sUBzrjUAAAAJ&hl=zh-CN) and [Prof. Heming Sun](https://scholar.google.com/citations?user=LtkiCFcAAAAJ&hl=zh-CN) , and I spent my undergraduate years in the School of Information Science and Engineering, Southeast University, from 2016 to 2020. My research interests mainly focus on video-language model, image compression and generation.
+This is Jinming Liu, I'm a second-year Ph.D. student at Shanghai Jiao Tong University (SJTU) and Eastern Institute for Advanced Study (EIT), advised by [Prof. Wenjun Zeng](https://scholar.google.com/citations?hl=zh-CN&user=_cUfvYQAAAAJ) and [Prof. Xin Jin](https://scholar.google.com/citations?user=byaSC-kAAAAJ&hl=zh-CN). Before that, I received my master degree from Waseda University under the supervision of [Prof. Jiro Katto](https://scholar.google.com/citations?user=sUBzrjUAAAAJ&hl=zh-CN) and [Prof. Heming Sun](https://scholar.google.com/citations?user=LtkiCFcAAAAJ&hl=zh-CN) , and I spent my undergraduate years in the School of Information Science and Engineering, Southeast University, from 2016 to 2020. 
+
+My research interests mainly focus on video-language model, multimodal large model, image compression and generation.
 
 
 ## Education

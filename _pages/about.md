@@ -20,9 +20,13 @@ Sep. 2020 - Sep. 2022    Master, Waseda University
 Sep. 2016 - Jun. 2020    Bachelor of Engineering, Southeast University
 
 ## Intern Experience
-Sep. 2024 - Present  Huawei, Algorithm Research Intern, Advisor: Dongsheng Jiang
-Apr. 2024 - Aug. 2024  Alibaba Cloud, Algorithm Research Intern, Advisor: Jieping Ye (IEEE Fellow)
-Jun. 2021 - Sep. 2021  ByteDance, Algorithm Engineer Intern
+Sep. 2024 - Present    Huawei, Algorithm Research Intern, Advisor: Dongsheng Jiang
+
+Apr. 2024 - Aug. 2024    Alibaba Cloud, Algorithm Research Intern, Advisor: Jieping Ye (IEEE Fellow)
+
+Jun. 2021 - Sep. 2021    ByteDance, Algorithm Engineer Intern
+
+Nov. 2020 - Feb. 2021    Meituan, Algorithm Engineer Intern
 
 
 ## Selected Publication

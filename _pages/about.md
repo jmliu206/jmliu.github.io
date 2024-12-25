@@ -15,7 +15,7 @@ This is Jinming Liu, I'm a second-year Ph.D. student at Shanghai Jiao Tong Unive
 ## Education
 Mar. 2023 - Present    Ph.D. Candidate, Shanghai Jiao Tong University
 
-Sep. 2020 - Sep. 2022    Master, Waseda University
+Sep. 2020 - Sep. 2022    Master, Waseda University
 
 Sep. 2016 - Jun. 2020    Bachelor of Engineering, Southeast University
 

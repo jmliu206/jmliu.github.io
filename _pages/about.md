@@ -26,15 +26,15 @@ Jun. 2021 - Sep. 2021  ByteDance, Algorithm Engineer Intern
 
 
 ## Selected Publication
-- **Jinming Liu** et al., "Learned Image Compression based on Mixed Transformer-CNN Architectures", CVPR 2023, **Highlight (Top 10% of accepted papers, 2.6% of submissions)**.
-- **Jinming Liu** et al., "Rate-Distortion-Cognition Controllable Single Versatile Neural Image Compression", ECCV 2024.
-- Fangzheng Lin, Heming Sun, **Jinming Liu** et al., "Multistage Spatial Context Models for Learned Image Compression", ICASSP 2023.
-- **Jinming Liu** et al., "Composable Image Coding for Machine via Task-oriented Internal Adaptor and External Prior", VCIP 2023, **Oral**.
-- **Jinming Liu** et al., "Semantic Segmentation in Learned Compressed Domain", PCS 2022, **Best Paper Finalist**.
-- **Jinming Liu** et al., "Improving Multiple Machine Vision Tasks in the Compressed Domain", ICPR 2022.
-- **Jinming Liu** et al., "Semantics Disentanglement and Composition for Versatile Codec toward both Human-eye Perception and Machine Vision Task", (under review).
-- **Jinming Liu** et al., "Tell Codec What Worth Compressing: Semantically Disentangled Image Coding for Machine with LMMs", (under review).
-- Ruoyu Feng, **Jinming Liu** et al., "Prompt-ICM: A Unified Framework towards Image Coding for Machines with Task-driven Prompts" (**Equal contribution**, under review).
+- **Jinming Liu**, Heming Sun, and Jiro Katto, "Learned Image Compression based on Mixed Transformer-CNN Architectures", CVPR 2023, **Highlight (Top 10% of accepted papers, 2.6% of submissions)**.
+- **Jinming Liu**, Ruoyu Feng, Yunpeng Qi, Qiuyu Chen, Zhibo Chen, Wenjun Zeng, Xin Jin, "Rate-Distortion-Cognition Controllable Single Versatile Neural Image Compression", ECCV 2024.
+- Fangzheng Lin, Heming Sun, **Jinming Liu**, Jiro Katto, "Multistage Spatial Context Models for Learned Image Compression", ICASSP 2023.
+- **Jinming Liu**, Xin Jin, Ruoyu Feng, Zhibo Chen, Wenjun Zeng, "Composable Image Coding for Machine via Task-oriented Internal Adaptor and External Prior", VCIP 2023, **Oral**.
+- **Jinming Liu**, Heming Sun, and Jiro Katto, "Semantic Segmentation in Learned Compressed Domain", PCS 2022, **Best Paper Finalist**.
+- **Jinming Liu**, Heming Sun, and Jiro Katto, "Improving Multiple Machine Vision Tasks in the Compressed Domain", ICPR 2022.
+- **Jinming Liu**, Yuntao Wei, Junyan Lin, Shengyang Zhao, Heming Sun, Zhibo Chen, Wenjun Zeng, Xin Jin, "Semantics Disentanglement and Composition for Versatile Codec toward both Human-eye Perception and Machine Vision Task", (under review).
+- **Jinming Liu**, Yuntao Wei, Junyan Lin, Shengyang Zhao, Heming Sun, Zhibo Chen, Wenjun Zeng, Xin Jin, "Tell Codec What Worth Compressing: Semantically Disentangled Image Coding for Machine with LMMs", (under review).
+- Ruoyu Feng, **Jinming Liu**, Xin Jin, Xiaohan Pan, Heming Sun, Zhibo Chen, "Prompt-ICM: A Unified Framework towards Image Coding for Machines with Task-driven Prompts" (**Equal contribution**, under review).
 
 ## Academic Services
 Invited Reviewer for IEEE TCSVT, TIP, etc.

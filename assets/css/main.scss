@@ -42,12 +42,13 @@
 
 .paper-box {
   display: flex;
-  justify-content: left;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
-  border-bottom: 1px #efefef solid;
-  padding: 0.1em 0 2em 0;
+  gap: 0.9rem;
+  border-bottom: 1px solid #e9edf3;
+  padding: 0.35rem 0 1.55rem;
+  margin-bottom: 1.25rem;
 
   .paper-box-image {
     justify-content: center;
@@ -58,16 +59,24 @@
     > div {
       position: relative;
       width: 100%;
-      max-width: 400px;
+      max-width: 420px;
+      aspect-ratio: 16 / 10;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border: 1px solid #e1e7f0;
+      border-radius: 6px;
+      background: #f8fafc;
+      box-shadow: 0 3px 10px rgba(30, 41, 59, 0.16);
     }
 
     img {
       display: block;
       width: 100%;
-      max-width: 400px;
-      box-shadow: 3px 3px 6px #888;
-      height: auto;
+      height: 100%;
       object-fit: contain;
+      box-shadow: none;
     }
   }
 
@@ -79,15 +88,15 @@
   @include breakpoint($medium) {
     .paper-box-image {
       justify-content: left;
-      min-width: 100px;
-      max-width: 25%;
+      flex: 0 0 27%;
+      max-width: 27%;
       order: 1;
     }
 
     .paper-box-text {
       justify-content: left;
-      padding-left: 0.1em;
-      max-width: 75%;
+      flex: 1 1 0;
+      max-width: calc(73% - 0.9rem);
       order: 2;
     }
   }
@@ -98,9 +107,9 @@
   align-items: center;
   justify-content: center;
   min-height: 150px;
-  border: 1px solid #d7dce5;
-  background: linear-gradient(135deg, #f7f8fb 0%, #eceff5 100%);
-  box-shadow: 3px 3px 6px #888;
+  width: 100%;
+  height: 100%;
+  background: #eef3f9;
   color: #224b8d;
   font-size: 1.8em;
   font-weight: 700;
@@ -118,26 +127,30 @@ h1:before, .anchor:before {
 }
 
 .badge {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  z-index: 1;
+  padding: 0.12rem 0.7rem;
   position: absolute;
-  margin-top: .5em;
-  margin-left: -.5em;
+  top: 0.55rem;
+  left: 0;
+  transform: translateX(-0.3rem);
   color: white;
   background-color: #00369f;
-  font-size: .8em;
+  border-radius: 3px;
+  font-size: 0.78em;
+  font-weight: 700;
+  line-height: 1.35;
 }
 
 .paper-title,
 .paper-authors,
-.paper-venue,
-.paper-tags,
+.paper-meta,
 .paper-links {
   margin: 0 0 0.45rem;
 }
 
 .paper-title {
   font-size: 1.05rem;
+  line-height: 1.35;
 }
 
 .paper-title a {
@@ -153,10 +166,25 @@ h1:before, .anchor:before {
 .paper-links {
   color: #4a5568;
   font-size: 0.95rem;
+  line-height: 1.42;
 }
 
 .paper-authors span {
   color: #1772d0;
+}
+
+.paper-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.55rem;
+  color: #2d3748;
+  font-size: 0.94rem;
+  line-height: 1.4;
+}
+
+.paper-venue {
+  display: inline;
 }
 
 .paper-links a {
@@ -171,17 +199,65 @@ h1:before, .anchor:before {
 }
 
 .job-market-note {
+  margin: 1.1rem 0 1.25rem;
+  padding: 0.72rem 0.9rem;
+  border-left: 4px solid #00369f;
+  border-radius: 0 6px 6px 0;
+  background: #f4f8ff;
   color: #00369f;
   font-weight: 700;
+  line-height: 1.45;
+}
+
+.job-market-note div + div {
+  margin-top: 0.18rem;
+}
+
+.news-list {
+  list-style: none;
+  margin: 0 0 1.6rem;
+  padding: 0;
+  border-top: 1px solid #e9edf3;
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 5.9rem minmax(0, 1fr);
+  column-gap: 0.85rem;
+  align-items: start;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid #e9edf3;
+  line-height: 1.45;
+}
+
+.news-date {
+  color: #4a5568;
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.news-body {
+  display: flex;
+  align-items: flex-start;
+  min-width: 0;
+}
+
+.news-body span {
+  min-width: 0;
+}
+
+.news-body strong {
+  color: #203a6b;
 }
 
 .news-icon {
-  display: inline-block;
+  flex: 0 0 1.15rem;
+  display: block;
   width: 1.15rem;
-  margin: 0 0.35rem 0 0.05rem;
+  margin: 0.22rem 0.4rem 0 0;
   text-align: center;
   font-size: 0.9rem;
-  vertical-align: 0.02rem;
 }
 
 .news-icon-paper {
@@ -205,9 +281,10 @@ h1:before, .anchor:before {
 }
 
 .paper-tags {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   gap: 0.35rem;
+  vertical-align: middle;
 }
 
 .paper-tag {
@@ -228,22 +305,79 @@ h1:before, .anchor:before {
   color: #c0392b;
 }
 
+.timeline-list {
+  margin: 0 0 1.6rem;
+  border-top: 1px solid #e9edf3;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 9.6rem minmax(0, 1fr);
+  column-gap: 0.9rem;
+  padding: 0.68rem 0;
+  border-bottom: 1px solid #e9edf3;
+}
+
+.timeline-date {
+  color: #4a5568;
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.45;
+}
+
+.timeline-body {
+  display: flex;
+  align-items: flex-start;
+  min-width: 0;
+  gap: 0.55rem;
+  line-height: 1.42;
+}
+
+.timeline-body > div {
+  min-width: 0;
+}
+
+.timeline-body strong {
+  display: block;
+  color: #1f2937;
+}
+
+.timeline-body span {
+  display: block;
+  color: #4a5568;
+  font-size: 0.92rem;
+  margin-top: 0.08rem;
+}
+
 .internship-logo {
-  display: inline-block;
-  width: 1.2rem;
-  height: 1.2rem;
-  margin: 0 0.35rem 0 0.05rem;
-  vertical-align: -0.22rem;
+  flex: 0 0 auto;
+  display: block;
+  width: 1.45rem;
+  height: 1.45rem;
+  margin-top: 0.05rem;
   box-shadow: none;
   object-fit: contain;
 }
 
 .education-logo {
-  display: inline-block;
-  width: 1.3rem;
-  height: 1.3rem;
-  margin: 0 0.35rem 0 0.05rem;
-  vertical-align: -0.28rem;
+  flex: 0 0 auto;
+  display: block;
+  width: 1.55rem;
+  height: 1.55rem;
+  margin-top: 0.02rem;
   box-shadow: none;
   object-fit: contain;
+}
+
+@media (max-width: 37.5em) {
+  .news-item,
+  .timeline-item {
+    grid-template-columns: 1fr;
+    row-gap: 0.12rem;
+  }
+
+  .news-date,
+  .timeline-date {
+    font-size: 0.86rem;
+  }
 }

@@ -21,19 +21,19 @@ My research interests include agentic image generation, multimodal large languag
 
 <span class="anchor" id="news"></span>
 # News
-- *2026.05*: <i class="fas fa-file-circle-check news-icon news-icon-paper" aria-hidden="true"></i>One paper was accepted by IEEE TCSVT.
-- *2026.01.25*: <i class="fas fa-file-circle-check news-icon news-icon-paper" aria-hidden="true"></i>One paper was accepted by ICLR 2026.
-- *2026.01.21*: <i class="fas fa-file-circle-check news-icon news-icon-paper" aria-hidden="true"></i>One paper was accepted by ISCAS 2026.
-- *2025.11*: <i class="fas fa-briefcase news-icon news-icon-internship" aria-hidden="true"></i>I joined ByteDance Data-Douyin as an Algorithm Research Intern.
-- *2025.11*: <i class="fas fa-trophy news-icon news-icon-award" aria-hidden="true"></i>We won the WINNER AWARD in the IEEE VCIP Grand Challenge "Ultra Low-Bitrate Video Compression Challenge".
-- *2025.06*: <i class="fas fa-microphone news-icon news-icon-talk" aria-hidden="true"></i>One paper was accepted by ICME 2025 as an oral presentation.
-- *2025.02*: <i class="fas fa-briefcase news-icon news-icon-internship" aria-hidden="true"></i>I joined Microsoft Research Asia (MSRA) as an Algorithm Research Intern.
-- *2024.09*: <i class="fas fa-briefcase news-icon news-icon-internship" aria-hidden="true"></i>I joined Huawei as an Algorithm Research Intern.
-- *2024.07*: <i class="fas fa-file-circle-check news-icon news-icon-paper" aria-hidden="true"></i>One paper was accepted by ECCV 2024.
-- *2024.04*: <i class="fas fa-briefcase news-icon news-icon-internship" aria-hidden="true"></i>I completed a research internship at Alibaba Cloud.
-- *2023.10*: <i class="fas fa-microphone news-icon news-icon-talk" aria-hidden="true"></i>One paper was presented at VCIP 2023 as an oral presentation.
-- *2023.06*: <i class="fas fa-star news-icon news-icon-highlight" aria-hidden="true"></i>One paper was selected as a CVPR 2023 Highlight.
-- *2022.11*: <i class="fas fa-trophy news-icon news-icon-award" aria-hidden="true"></i>One paper was recognized as a Best Paper Finalist at PCS 2022.
+- *2026.05*: <i class="fas fa-file-circle-check news-icon news-icon-paper" aria-hidden="true"></i>One paper was accepted by **IEEE TCSVT**.
+- *2026.01.25*: <i class="fas fa-file-circle-check news-icon news-icon-paper" aria-hidden="true"></i>One paper was accepted by **ICLR 2026**.
+- *2026.01.21*: <i class="fas fa-file-circle-check news-icon news-icon-paper" aria-hidden="true"></i>One paper was accepted by **ISCAS 2026**.
+- *2025.11*: <i class="fas fa-briefcase news-icon news-icon-internship" aria-hidden="true"></i>I joined **ByteDance Data-Douyin** as an Algorithm Research Intern.
+- *2025.11*: <i class="fas fa-trophy news-icon news-icon-award" aria-hidden="true"></i>We won the **WINNER AWARD** in the **IEEE VCIP Grand Challenge "Ultra Low-Bitrate Video Compression Challenge"**.
+- *2025.06*: <i class="fas fa-microphone news-icon news-icon-talk" aria-hidden="true"></i>One paper was accepted by **ICME 2025** as an **oral presentation**.
+- *2025.02*: <i class="fas fa-briefcase news-icon news-icon-internship" aria-hidden="true"></i>I joined **Microsoft Research Asia (MSRA)** as an Algorithm Research Intern.
+- *2024.09*: <i class="fas fa-briefcase news-icon news-icon-internship" aria-hidden="true"></i>I joined **Huawei** as an Algorithm Research Intern.
+- *2024.07*: <i class="fas fa-file-circle-check news-icon news-icon-paper" aria-hidden="true"></i>One paper was accepted by **ECCV 2024**.
+- *2024.04*: <i class="fas fa-briefcase news-icon news-icon-internship" aria-hidden="true"></i>I completed a research internship at **Alibaba Cloud**.
+- *2023.10*: <i class="fas fa-microphone news-icon news-icon-talk" aria-hidden="true"></i>One paper was presented at **VCIP 2023** as an **oral presentation**.
+- *2023.06*: <i class="fas fa-star news-icon news-icon-highlight" aria-hidden="true"></i>One paper was selected as a **CVPR 2023 Highlight**.
+- *2022.11*: <i class="fas fa-trophy news-icon news-icon-award" aria-hidden="true"></i>One paper was recognized as a **Best Paper Finalist** at **PCS 2022**.
 
 <span class="anchor" id="publications"></span>
 # Publications

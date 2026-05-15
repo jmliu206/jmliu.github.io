@@ -12,9 +12,9 @@ title                    : "Jinming Liu (刘津铭)"
 title_separator          : "-"
 name                     : &name "Jinming Liu"
 description              : &description "Ph.D. student in Computer Science at Shanghai Jiao Tong University, working on agentic image generation, multimodal large language models, streaming MLLM, and representation compression"
-url                      : https://jmliu206.github.io/jmliu.github.io/
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/jmliu206"
+url                      : https://jmliu206.github.io
+baseurl                  : "/jmliu.github.io" # the subpath of your site, e.g. "/blog"
+repository               : "jmliu206/jmliu.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.

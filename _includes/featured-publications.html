@@ -1,0 +1,32 @@
+{% assign featured_publications = site.data.publications | where: "selected", true | sort: "featured_order" %}
+{% for pub in featured_publications %}
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">{{ pub.badge }}</div>
+      {% if pub.image %}
+        <img src="{{ pub.image | relative_url }}" alt="{{ pub.abbr }} overview">
+      {% else %}
+        <div class="paper-box-placeholder">{{ pub.abbr }}</div>
+      {% endif %}
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <p class="paper-title"><strong>{% if pub.paper_url %}<a href="{{ pub.paper_url }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</strong></p>
+    <p class="paper-authors"><span>{{ pub.authors | replace: 'Jinming Liu', '<strong>Jinming Liu</strong>' }}</span></p>
+    <p class="paper-venue"><em><strong>{{ pub.venue }}</strong></em></p>
+    {% if pub.ccf or pub.note %}
+    <p class="paper-tags">
+      {% if pub.ccf %}<span class="paper-tag">{{ pub.ccf }}</span>{% endif %}
+      {% if pub.note %}<span class="paper-tag paper-tag-note">{{ pub.note }}</span>{% endif %}
+    </p>
+    {% endif %}
+    <p class="paper-links">
+      {% if pub.project_url %}<a href="{{ pub.project_url }}" target="_blank" rel="noopener noreferrer">Project</a>{% endif %}
+      {% if pub.paper_url %}<a href="{{ pub.paper_url }}" target="_blank" rel="noopener noreferrer">Paper</a>{% endif %}
+      {% if pub.code_url %}<a href="{{ pub.code_url }}" target="_blank" rel="noopener noreferrer">Code</a>{% endif %}
+      {% if pub.scholar_url %}<a href="{{ pub.scholar_url }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>{% endif %}
+    </p>
+  </div>
+</div>
+{% endfor %}

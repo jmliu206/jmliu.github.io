@@ -1,0 +1,291 @@
+- title: "Generation Navigator: A State-Aware Agentic Framework for Image Generation"
+  authors: "J Liu, et al."
+  venue: "Submitted to NeurIPS 2026"
+  year: 2026
+  badge: "Submitted"
+  abbr: "GN"
+  note: "Submitted"
+  selected: false
+
+- title: "A Streaming Video Understanding Framework with Sequentially Disentangled Agentic Control"
+  authors: "J Liu, et al."
+  venue: "Submitted to EMNLP 2026"
+  year: 2026
+  badge: "Submitted"
+  abbr: "SVU"
+  note: "Submitted"
+  selected: false
+
+- title: "When MLLMs Meet Compression Distortion: A Coding Paradigm Tailored to MLLMs"
+  authors: "Jinming Liu, Zhaoyang Jia, Jiahao Li, Bin Li, Xin Jin, Wenjun Zeng, Yan Lu"
+  venue: "International Conference on Learning Representations (ICLR 2026)"
+  year: 2026
+  badge: "ICLR 2026"
+  abbr: "MCD"
+  image: "images/papers/cotam_iclr2026.png"
+  paper_url: "https://arxiv.org/abs/2509.24258"
+  code_url: "https://github.com/jmliu206/CoTAM"
+  ccf: "CCF-A"
+  featured_order: 10
+  selected: true
+
+- title: "Semantics Disentanglement and Composition for Versatile Codec toward both Human-eye Perception and Machine Vision Task"
+  authors: "Jinming Liu, Yuntao Wei, Junyan Lin, Shengyang Zhao, Heming Sun, Zhibo Chen, Wenjun Zeng, Xin Jin"
+  venue: "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT 2026)"
+  year: 2026
+  badge: "TCSVT 2026"
+  abbr: "SDC"
+  image: "images/papers/discover_tcsvt2026.png"
+  paper_url: "https://arxiv.org/abs/2412.18158"
+  note: "SCI-Q1"
+  featured_order: 20
+  selected: true
+
+- title: "Speak While Watching: Unleashing TRUE Real-Time Video Understanding Capability of Multimodal Large Language Models"
+  authors: "J Lin, J Tong, H Wu, J Zhang, J Liu, X Jin, X Shen"
+  venue: "arXiv preprint arXiv:2601.06843"
+  year: 2026
+  citations: 3
+  badge: "arXiv 2026"
+  abbr: "SWW"
+  scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=B1voMaoAAAAJ&citation_for_view=B1voMaoAAAAJ:3fE2CSJIrl8C"
+  selected: false
+
+- title: "Revisiting MLLM Token Technology through the Lens of Classical Visual Coding"
+  authors: "Jinming Liu, Junyan Lin, Yuntao Wei, Kele Shao, Keda Tao, Jianguo Huang, Xudong Yang, Zhibo Chen, Huan Wang, Xin Jin"
+  venue: "IEEE International Symposium on Circuits and Systems (ISCAS 2026)"
+  year: 2026
+  citations: 7
+  badge: "ISCAS 2026"
+  abbr: "VCT"
+  image: "images/papers/token_iscas2026.png"
+  paper_url: "https://arxiv.org/abs/2508.13460"
+  scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=B1voMaoAAAAJ&citation_for_view=B1voMaoAAAAJ:0EnyYjriUFMC"
+  ccf: "CCF-B"
+  featured_order: 30
+  selected: true
+
+- title: "Diff-ICMH: Harmonizing Machine and Human Vision in Image Compression with Generative Prior"
+  authors: "Ruoyu Feng, Yunpeng Qi, Jinming Liu, Yixin Gao, Xin Li, Xin Jin, Zhibo Chen"
+  venue: "Advances in Neural Information Processing Systems (NeurIPS 2025)"
+  year: 2025
+  badge: "NeurIPS 2025"
+  abbr: "Diff-ICMH"
+  image: "images/papers/diff_icmh_neurips2025.png"
+  paper_url: "https://arxiv.org/abs/2511.22549"
+  code_url: "https://github.com/RuoyuFeng/Diff-ICMH"
+  ccf: "CCF-A"
+  featured_order: 40
+  selected: true
+
+- title: "Representation Disentanglement for Semantic Coding"
+  authors: "Jinming Liu, Junhao Geng, Lexiang Lv, Wenjun Zeng, Xin Jin"
+  venue: "IEEE International Conference on Multimedia and Expo (ICME 2025)"
+  year: 2025
+  badge: "ICME 2025"
+  abbr: "RDSC"
+  image: "images/papers/rdsc_icme2025.png"
+  paper_url: "https://ieeexplore.ieee.org/abstract/document/11209144"
+  ccf: "CCF-B"
+  note: "Oral"
+  featured_order: 50
+  selected: true
+
+- title: "Multi-Attribute Continual Learning for Blind Image Quality Assessment"
+  authors: "Yunhao Luo, Jinming Liu, Wei Zhou, Xin Jin"
+  venue: "IEEE International Symposium on Circuits and Systems (ISCAS 2025)"
+  year: 2025
+  citations: 8
+  badge: "ISCAS 2025"
+  abbr: "MACL"
+  image: "images/papers/macl_iscas2025.png"
+  paper_url: "https://ieeexplore.ieee.org/abstract/document/11043383"
+  scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=B1voMaoAAAAJ&citation_for_view=B1voMaoAAAAJ:hqOjcs7Dif8C"
+  ccf: "CCF-B"
+  featured_order: 60
+  selected: true
+
+- title: "Rate-Distortion-Cognition Controllable Single Versatile Neural Image Compression"
+  authors: "Jinming Liu, Ruoyu Feng, Yunpeng Qi, Qiuyu Chen, Zhibo Chen, Wenjun Zeng, Xin Jin"
+  venue: "European Conference on Computer Vision (ECCV 2024)"
+  year: 2024
+  citations: 21
+  badge: "ECCV 2024"
+  abbr: "RDC"
+  image: "images/papers/rdc_eccv2024.png"
+  paper_url: "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07338.pdf"
+  scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=B1voMaoAAAAJ&citation_for_view=B1voMaoAAAAJ:_FxGoFyzp5QC"
+  ccf: "CCF-B"
+  featured_order: 70
+  selected: true
+
+- title: "Tell codec what worth compressing: Semantically disentangled image coding for machine with LMMs"
+  authors: "J Liu, Y Wei, J Lin, S Zhao, H Sun, Z Chen, W Zeng, X Jin"
+  venue: "arXiv preprint arXiv:2408.08575"
+  year: 2024
+  citations: 7
+  badge: "arXiv 2024"
+  abbr: "LMM"
+  scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=B1voMaoAAAAJ&citation_for_view=B1voMaoAAAAJ:roLk4NBRz8UC"
+  selected: false
+
+- title: "Closed-Loop Unsupervised Representation Disentanglement with beta-VAE Distillation and Diffusion Probabilistic Feedback"
+  authors: "X Jin, B Li, B Xie, W Zhang, J Liu, Z Li, T Yang, W Zeng"
+  venue: "European Conference on Computer Vision (ECCV 2024)"
+  year: 2024
+  citations: 17
+  badge: "ECCV 2024"
+  abbr: "CLUR"
+  scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=B1voMaoAAAAJ&citation_for_view=B1voMaoAAAAJ:LkGwnXOMwfcC"
+  selected: false
+
+- title: "One at a time: Progressive multi-step volumetric probability learning for reliable 3d scene perception"
+  authors: "B Li, Y Sun, J Dong, Z Zhu, J Liu, X Jin, W Zeng"
+  venue: "Proceedings of the AAAI Conference on Artificial Intelligence 38(4), 3028-3036"
+  year: 2024
+  citations: 7
+  badge: "AAAI 2024"
+  abbr: "OAT"
+  scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=B1voMaoAAAAJ&citation_for_view=B1voMaoAAAAJ:ufrVoPGSRksC"
+  selected: false
+
+- title: "Learned Image Compression with Mixed Transformer-CNN Architectures"
+  authors: "Jinming Liu, Heming Sun, Jiro Katto"
+  venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2023)"
+  year: 2023
+  citations: 539
+  badge: "CVPR 2023"
+  abbr: "LIC"
+  image: "images/papers/lic_tcm_cvpr2023.png"
+  paper_url: "https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Learned_Image_Compression_With_Mixed_Transformer-CNN_Architectures_CVPR_2023_paper.pdf"
+  code_url: "https://github.com/jmliu206/LIC_TCM"
+  scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=B1voMaoAAAAJ&citation_for_view=B1voMaoAAAAJ:zYLM7Y9cAGgC"
+  note: "Highlight"
+  ccf: "CCF-A"
+  featured_order: 80
+  selected: true
+
+- title: "Inpaint anything: Segment anything meets image inpainting"
+  authors: "T Yu, R Feng, R Feng, J Liu, X Jin, W Zeng, Z Chen"
+  venue: "arXiv preprint arXiv:2304.06790"
+  year: 2023
+  citations: 387
+  badge: "arXiv 2023"
+  abbr: "IPA"
+  scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=B1voMaoAAAAJ&citation_for_view=B1voMaoAAAAJ:Tyk-4Ss8FVUC"
+  selected: false
+
+- title: "Multistage spatial context models for learned image compression"
+  authors: "F Lin, H Sun, J Liu, J Katto"
+  venue: "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing"
+  year: 2023
+  citations: 30
+  badge: "ICASSP 2023"
+  abbr: "MSC"
+  scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=B1voMaoAAAAJ&citation_for_view=B1voMaoAAAAJ:IjCSPb-OGe4C"
+  selected: false
+
+- title: "Emog: Synthesizing emotive co-speech 3d gesture with diffusion model"
+  authors: "L Yin, Y Wang, T He, J Liu, W Zhao, B Li, X Jin, J Lin"
+  venue: "arXiv preprint arXiv:2306.11496"
+  year: 2023
+  citations: 24
+  badge: "arXiv 2023"
+  abbr: "EMOG"
+  scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=B1voMaoAAAAJ&citation_for_view=B1voMaoAAAAJ:W7OEmFMy1HYC"
+  selected: false
+
+- title: "Prompt-icm: A unified framework towards image coding for machines with task-driven prompts"
+  authors: "R Feng, J Liu, X Jin, X Pan, H Sun, Z Chen"
+  venue: "arXiv preprint arXiv:2305.02578"
+  year: 2023
+  citations: 21
+  badge: "arXiv 2023"
+  abbr: "PICM"
+  scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=B1voMaoAAAAJ&citation_for_view=B1voMaoAAAAJ:Y0pCki6q_DkC"
+  selected: false
+
+- title: "Composable image coding for machine via task-oriented internal adaptor and external prior"
+  authors: "J Liu, X Jin, R Feng, Z Chen, W Zeng"
+  venue: "IEEE International Conference on Visual Communications and Image Processing (VCIP 2023)"
+  year: 2023
+  citations: 11
+  badge: "VCIP 2023"
+  abbr: "CIM"
+  scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=B1voMaoAAAAJ&citation_for_view=B1voMaoAAAAJ:eQOLeE2rZwMC"
+  note: "Oral Presentation"
+  selected: false
+
+- title: "One at a time: Multi-step volumetric probability distribution diffusion for depth estimation"
+  authors: "B Li, J Dong, Y Wang, J Liu, L Yin, W Zhao, Z Zhu, X Jin, W Zeng"
+  venue: "arXiv preprint arXiv:2306.12681"
+  year: 2023
+  citations: 5
+  badge: "arXiv 2023"
+  abbr: "OAT"
+  scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=B1voMaoAAAAJ&citation_for_view=B1voMaoAAAAJ:YsMSGLbcyi4C"
+  selected: false
+
+- title: "PTS-LIC: Pruning threshold searching for lightweight learned image compression"
+  authors: "A Luo, H Sun, J Liu, F Lin, J Katto"
+  venue: "IEEE International Conference on Visual Communications and Image Processing (VCIP 2023)"
+  year: 2023
+  citations: 2
+  badge: "VCIP 2023"
+  abbr: "PTS"
+  scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=B1voMaoAAAAJ&citation_for_view=B1voMaoAAAAJ:WF5omc3nYNoC"
+  selected: false
+
+- title: "Improving multiple machine vision tasks in the compressed domain"
+  authors: "J Liu, H Sun, J Katto"
+  venue: "26th International Conference on Pattern Recognition (ICPR 2022), 331-337"
+  year: 2022
+  citations: 43
+  badge: "ICPR 2022"
+  abbr: "IMV"
+  scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=B1voMaoAAAAJ&citation_for_view=B1voMaoAAAAJ:UeHWp8X0CEIC"
+  selected: false
+
+- title: "Memory-efficient learned image compression with pruned hyperprior module"
+  authors: "A Luo, H Sun, J Liu, J Katto"
+  venue: "IEEE International Conference on Image Processing (ICIP 2022), 3061-3065"
+  year: 2022
+  citations: 22
+  badge: "ICIP 2022"
+  abbr: "MHP"
+  scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=B1voMaoAAAAJ&citation_for_view=B1voMaoAAAAJ:9yKSN-GCB0IC"
+  selected: false
+
+- title: "Semantic segmentation in learned compressed domain"
+  authors: "Jinming Liu, Heming Sun, Jiro Katto"
+  venue: "Picture Coding Symposium (PCS 2022), 181-185"
+  year: 2022
+  citations: 19
+  badge: "PCS 2022"
+  abbr: "SEG"
+  image: "images/papers/seg_pcs2022.png"
+  paper_url: "https://arxiv.org/abs/2209.01355"
+  scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=B1voMaoAAAAJ&citation_for_view=B1voMaoAAAAJ:qjMakFHDy7sC"
+  note: "Best Paper Finalist"
+  featured_order: 90
+  selected: true
+
+- title: "Learning in compressed domain for faster machine vision tasks"
+  authors: "J Liu, H Sun, J Katto"
+  venue: "2021 International Conference on Visual Communications and Image Processing (VCIP 2021)"
+  year: 2021
+  citations: 29
+  badge: "VCIP 2021"
+  abbr: "LCD"
+  scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=B1voMaoAAAAJ&citation_for_view=B1voMaoAAAAJ:d1gkVwhDpl0C"
+  selected: false
+
+- title: "A multi-stream convolutional neural network for micro-expression recognition using optical flow and EVM"
+  authors: "J Liu, K Li, B Song, L Zhao"
+  venue: "arXiv preprint arXiv:2011.03756"
+  year: 2020
+  citations: 19
+  badge: "arXiv 2020"
+  abbr: "MER"
+  scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=B1voMaoAAAAJ&citation_for_view=B1voMaoAAAAJ:u-x6o8ySG0sC"
+  selected: false

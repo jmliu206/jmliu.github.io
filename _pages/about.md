@@ -1,48 +1,70 @@
 ---
 permalink: /
 title: ""
+excerpt: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# Jinming Liu (刘津铭)
-## Biography
-This is Jinming Liu, I'm a second-year Ph.D. student at Shanghai Jiao Tong University (SJTU) and Eastern Institute for Advanced Study (EIT), advised by [Prof. Wenjun Zeng](https://scholar.google.com/citations?hl=zh-CN&user=_cUfvYQAAAAJ) and [Prof. Xin Jin](https://scholar.google.com/citations?user=byaSC-kAAAAJ&hl=zh-CN). Before that, I received my master degree from Waseda University under the supervision of [Prof. Jiro Katto](https://scholar.google.com/citations?user=sUBzrjUAAAAJ&hl=zh-CN) and [Prof. Heming Sun](https://scholar.google.com/citations?user=LtkiCFcAAAAJ&hl=zh-CN) , and I spent my undergraduate years in the School of Information Science and Engineering, Southeast University, from 2016 to 2020. 
+<span class="anchor" id="about-me"></span>
 
-My research interests mainly focus on video-language model, multimodal large model, image compression and generation.
+Currently, I am a Ph.D. student in the Department of Computer Science at Shanghai Jiao Tong University (SJTU), advised by Prof. [Wenjun Zeng](https://scholar.google.com/citations?hl=zh-CN&user=_cUfvYQAAAAJ) and Prof. [Xin Jin](https://scholar.google.com/citations?user=byaSC-kAAAAJ&hl=zh-CN). Before that, I received my master's degree from Waseda University under the supervision of Prof. [Jiro Katto](https://scholar.google.com/citations?user=sUBzrjUAAAAJ&hl=zh-CN) and Prof. [Heming Sun](https://scholar.google.com/citations?user=LtkiCFcAAAAJ&hl=zh-CN), and my bachelor's degree from Southeast University.
 
+In 2025, I interned at Microsoft Research Asia (MSRA), supervised by [Jiahao Li](https://www.microsoft.com/en-us/research/people/jiahali/), [Bin Li](https://www.microsoft.com/en-us/research/people/libin/), and [Yan Lu](https://www.microsoft.com/en-us/research/people/yanlu/). In 2026, I have been interning at ByteDance, working with [Ruoyu Feng](https://ruoyufeng.github.io/) and [Yuqi Wang](https://robertwyq.github.io/). I am deeply grateful for these valuable research experiences.
 
-## Education
-Mar. 2023 - Present    Ph.D. Candidate, Shanghai Jiao Tong University
+My research interests include agentic image generation, multimodal large language models, streaming MLLM, and representation compression.
 
-Sep. 2020 - Sep. 2022    Master, Waseda University
+<p class="job-market-note">I am actively seeking full-time research scientist positions in agentic image generation, multimodal large language models, and media processing!<br>
+预计 2026 年底毕业。如果您有 Agentic 生成/多模态大模型相关的工作岗位，欢迎与我联系！</p>
 
-Sep. 2016 - Jun. 2020    Bachelor of Engineering, Southeast University
+<span class="anchor" id="news"></span>
+# News
+- *2026.05*: <i class="fas fa-file-circle-check news-icon news-icon-paper" aria-hidden="true"></i>One paper was accepted by IEEE TCSVT.
+- *2026.01.25*: <i class="fas fa-file-circle-check news-icon news-icon-paper" aria-hidden="true"></i>One paper was accepted by ICLR 2026.
+- *2026.01.21*: <i class="fas fa-file-circle-check news-icon news-icon-paper" aria-hidden="true"></i>One paper was accepted by ISCAS 2026.
+- *2025.11*: <i class="fas fa-briefcase news-icon news-icon-internship" aria-hidden="true"></i>I joined ByteDance Data-Douyin as an Algorithm Research Intern.
+- *2025.11*: <i class="fas fa-trophy news-icon news-icon-award" aria-hidden="true"></i>We won the WINNER AWARD in the IEEE VCIP Grand Challenge "Ultra Low-Bitrate Video Compression Challenge".
+- *2025.06*: <i class="fas fa-microphone news-icon news-icon-talk" aria-hidden="true"></i>One paper was accepted by ICME 2025 as an oral presentation.
+- *2025.02*: <i class="fas fa-briefcase news-icon news-icon-internship" aria-hidden="true"></i>I joined Microsoft Research Asia (MSRA) as an Algorithm Research Intern.
+- *2024.09*: <i class="fas fa-briefcase news-icon news-icon-internship" aria-hidden="true"></i>I joined Huawei as an Algorithm Research Intern.
+- *2024.07*: <i class="fas fa-file-circle-check news-icon news-icon-paper" aria-hidden="true"></i>One paper was accepted by ECCV 2024.
+- *2024.04*: <i class="fas fa-briefcase news-icon news-icon-internship" aria-hidden="true"></i>I completed a research internship at Alibaba Cloud.
+- *2023.10*: <i class="fas fa-microphone news-icon news-icon-talk" aria-hidden="true"></i>One paper was presented at VCIP 2023 as an oral presentation.
+- *2023.06*: <i class="fas fa-star news-icon news-icon-highlight" aria-hidden="true"></i>One paper was selected as a CVPR 2023 Highlight.
+- *2022.11*: <i class="fas fa-trophy news-icon news-icon-award" aria-hidden="true"></i>One paper was recognized as a Best Paper Finalist at PCS 2022.
 
-## Intern Experience
-Sep. 2024 - Present    Huawei, Algorithm Research Intern, Advisor: Dongsheng Jiang
+<span class="anchor" id="publications"></span>
+# Publications
+\* **Equal contribution**; † **Corresponding author**
 
-Apr. 2024 - Aug. 2024    Alibaba Cloud, Algorithm Research Intern, Advisor: Jieping Ye (IEEE Fellow)
+Selected publications from my CV are shown below. Please refer to my [Google Scholar profile](https://scholar.google.com/citations?user=B1voMaoAAAAJ&hl=zh-CN) for the full list.
 
-Jun. 2021 - Sep. 2021    ByteDance, Algorithm Engineer Intern
+{% include featured-publications.html %}
 
-Nov. 2020 - Feb. 2021    Meituan, Algorithm Engineer Intern
+<span class="anchor" id="educations"></span>
+# Educations
+- *Mar. 2023 - Present*, <img class="education-logo" src="{{ '/images/logos/sjtu.png' | relative_url }}" alt="Shanghai Jiao Tong University logo"> **Ph.D. Candidate, Shanghai Jiao Tong University**
+- *Sep. 2020 - Sep. 2022*, <img class="education-logo" src="{{ '/images/logos/waseda.png' | relative_url }}" alt="Waseda University logo"> **Master, Waseda University**
+- *Sep. 2016 - Jun. 2020*, <img class="education-logo" src="{{ '/images/logos/southeast-university.png' | relative_url }}" alt="Southeast University logo"> **Bachelor of Engineering, Southeast University**
 
+<span class="anchor" id="internships"></span>
+# Internships
+- *Nov. 2025 - Present*: <img class="internship-logo" src="{{ '/images/logos/bytedance.svg' | relative_url }}" alt="ByteDance logo"> **ByteDance Data-Douyin, Algorithm Research Intern**
+  - Advisors: Ruoyu Feng and Mingyu Guo
+  - Research topic: image generation foundation models and agentic image generation.
+- *Feb. 2025 - Nov. 2025*: <img class="internship-logo" src="{{ '/images/logos/microsoft.svg' | relative_url }}" alt="Microsoft logo"> **Microsoft Research Asia, Algorithm Research Intern**
+  - Advisors: Bin Li and Yan Lu
+  - Research topics: MLLM robustness and agentic MLLM.
+- *Sep. 2024 - Mar. 2025*: <img class="internship-logo" src="{{ '/images/logos/huawei.svg' | relative_url }}" alt="Huawei logo"> **Huawei, Algorithm Research Intern**
+  - Advisor: Dongsheng Jiang
+  - Research topic: MLLM token compression.
+- *Apr. 2024 - Aug. 2024*: <img class="internship-logo" src="{{ '/images/logos/alibabacloud.svg' | relative_url }}" alt="Alibaba Cloud logo"> **Alibaba Cloud, Algorithm Research Intern**
+  - Advisor: Jieping Ye (IEEE Fellow)
+- *Jun. 2021 - Sep. 2021*: <img class="internship-logo" src="{{ '/images/logos/bytedance.svg' | relative_url }}" alt="ByteDance logo"> **ByteDance, Algorithm Engineer Intern**
+- *Nov. 2020 - Feb. 2021*: <img class="internship-logo" src="{{ '/images/logos/meituan.svg' | relative_url }}" alt="Meituan logo"> **Meituan, Algorithm Engineer Intern**
 
-## Selected Publication
-- **Jinming Liu**, Heming Sun, and Jiro Katto, "Learned Image Compression based on Mixed Transformer-CNN Architectures", CVPR 2023, **Highlight (Top 10% of accepted papers, 2.6% of submissions)**.
-- **Jinming Liu**, Ruoyu Feng, Yunpeng Qi, Qiuyu Chen, Zhibo Chen, Wenjun Zeng, Xin Jin, "Rate-Distortion-Cognition Controllable Single Versatile Neural Image Compression", ECCV 2024.
-- Fangzheng Lin, Heming Sun, **Jinming Liu**, Jiro Katto, "Multistage Spatial Context Models for Learned Image Compression", ICASSP 2023.
-- **Jinming Liu**, Xin Jin, Ruoyu Feng, Zhibo Chen, Wenjun Zeng, "Composable Image Coding for Machine via Task-oriented Internal Adaptor and External Prior", VCIP 2023, **Oral**.
-- **Jinming Liu**, Heming Sun, and Jiro Katto, "Semantic Segmentation in Learned Compressed Domain", PCS 2022, **Best Paper Finalist**.
-- **Jinming Liu**, Heming Sun, and Jiro Katto, "Improving Multiple Machine Vision Tasks in the Compressed Domain", ICPR 2022.
-- **Jinming Liu**, Yuntao Wei, Junyan Lin, Shengyang Zhao, Heming Sun, Zhibo Chen, Wenjun Zeng, Xin Jin, "Semantics Disentanglement and Composition for Versatile Codec toward both Human-eye Perception and Machine Vision Task", (under review).
-- **Jinming Liu**, Yuntao Wei, Junyan Lin, Shengyang Zhao, Heming Sun, Zhibo Chen, Wenjun Zeng, Xin Jin, "Tell Codec What Worth Compressing: Semantically Disentangled Image Coding for Machine with LMMs", (under review).
-- Ruoyu Feng, **Jinming Liu**, Xin Jin, Xiaohan Pan, Heming Sun, Zhibo Chen, "Prompt-ICM: A Unified Framework towards Image Coding for Machines with Task-driven Prompts" (**Equal contribution**, under review).
-
-## Academic Services
-Invited Reviewer for IEEE TCSVT, TIP, etc.
-
-Invited Reviewer for ECCV, ICCV, ACM MM, etc.
+<span class="anchor" id="academic-services"></span>
+# Academic Services
+- Reviewer for CVPR, ECCV, TPAMI, IEEE TCSVT, VCIP, and related venues.

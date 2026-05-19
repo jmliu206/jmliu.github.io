@@ -1,19 +1,27 @@
-- title: "Generation Navigator: A State-Aware Agentic Framework for Image Generation"
-  authors: "J Liu, et al."
-  venue: "Submitted to NeurIPS 2026"
+- title: "An Efficient Streaming Video Understanding Framework with Agentic Control"
+  authors: "Jinming Liu, Jianguo Huang, Zhaoyang Jia, Jiahao Li, Xiaoyi Zhang, Zongyu Guo, Bin Li, Wenjun Zeng, Yan Lu, Xin Jin"
+  venue: "arXiv preprint arXiv:2605.17921"
   year: 2026
-  badge: "Submitted"
-  abbr: "GN"
-  note: "Submitted"
+  badge: "arXiv 2026"
+  abbr: "SVU"
+  image: "images/papers/r3_streaming_arxiv2026.png"
+  paper_url: "https://arxiv.org/abs/2605.17921"
+  note: "Under Review"
+  preprint_order: 10
+  preprint: true
   selected: false
 
-- title: "A Streaming Video Understanding Framework with Sequentially Disentangled Agentic Control"
-  authors: "J Liu, et al."
-  venue: "Submitted to EMNLP 2026"
+- title: "Generation Navigator: A State-Aware Agentic Framework for Image Generation"
+  authors: "Jinming Liu, Ruoyu Feng, Yuqi Wang, Wenjun Zeng, Xin Jin"
+  venue: "arXiv preprint arXiv:2605.17969"
   year: 2026
-  badge: "Submitted"
-  abbr: "SVU"
-  note: "Submitted"
+  badge: "arXiv 2026"
+  abbr: "GN"
+  image: "images/papers/generation_navigator_arxiv2026.png"
+  paper_url: "https://arxiv.org/abs/2605.17969"
+  note: "Under Review"
+  preprint_order: 20
+  preprint: true
   selected: false
 
 - title: "When MLLMs Meet Compression Distortion: A Coding Paradigm Tailored to MLLMs"

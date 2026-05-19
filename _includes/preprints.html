@@ -1,0 +1,30 @@
+{% assign preprints = site.data.publications | where: "preprint", true | sort: "preprint_order" %}
+{% for pub in preprints %}
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">{{ pub.badge }}</div>
+      {% if pub.image %}
+        <img src="{{ pub.image | relative_url }}" alt="{{ pub.abbr }} overview">
+      {% else %}
+        <div class="paper-box-placeholder">{{ pub.abbr }}</div>
+      {% endif %}
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <p class="paper-title"><strong>{% if pub.paper_url %}<a href="{{ pub.paper_url }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</strong></p>
+    <p class="paper-authors"><span>{{ pub.authors | replace: 'Jinming Liu', '<strong>Jinming Liu</strong>' }}</span></p>
+    <div class="paper-meta">
+      <span class="paper-venue"><em><strong>{{ pub.venue }}</strong></em></span>
+      {% if pub.note %}
+      <span class="paper-tags">
+        <span class="paper-tag paper-tag-note">{{ pub.note }}</span>
+      </span>
+      {% endif %}
+    </div>
+    <p class="paper-links">
+      {% if pub.paper_url %}<a href="{{ pub.paper_url }}" target="_blank" rel="noopener noreferrer">arXiv</a>{% endif %}
+    </p>
+  </div>
+</div>
+{% endfor %}

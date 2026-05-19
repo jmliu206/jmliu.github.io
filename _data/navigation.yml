@@ -9,6 +9,8 @@ main:
     url: /#about-me
   - title: "News"
     url: /#news
+  - title: "Pre-Prints"
+    url: /#pre-prints
   - title: "Publications"
     url: /#publications
   - title: "Educations"

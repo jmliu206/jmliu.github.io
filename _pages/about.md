@@ -78,6 +78,12 @@ My research interests include agentic image generation, multimodal large languag
   </li>
 </ul>
 
+<span class="anchor" id="pre-prints"></span>
+# Pre-Prints
+Under-review arXiv manuscripts are listed here.
+
+{% include preprints.html %}
+
 <span class="anchor" id="publications"></span>
 # Publications
 \* **Equal contribution**; † **Corresponding author**

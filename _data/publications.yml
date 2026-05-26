@@ -73,6 +73,19 @@
   featured_order: 30
   selected: true
 
+- title: "Efficient Token Compression for the Understanding and Generation Unified MLLMs"
+  authors: "Junyan Lin, Jinming Liu, Shengyang Zhao, Xin Jin"
+  venue: "IEEE International Symposium on Circuits and Systems (ISCAS 2026)"
+  year: 2026
+  badge: "ISCAS 2026"
+  abbr: "ETC"
+  image: "images/papers/efficient_token_compression_iscas2026.png"
+  paper_url: "files/efficient_token_compression_iscas2026.pdf"
+  ccf: "CCF-B"
+  note: "MSA-TC Best Paper Award"
+  featured_order: 35
+  selected: true
+
 - title: "Diff-ICMH: Harmonizing Machine and Human Vision in Image Compression with Generative Prior"
   authors: "Ruoyu Feng, Yunpeng Qi, Jinming Liu, Yixin Gao, Xin Li, Xin Jin, Zhibo Chen"
   venue: "Advances in Neural Information Processing Systems (NeurIPS 2025)"

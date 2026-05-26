@@ -26,6 +26,10 @@ My research interests include agentic image generation, multimodal large languag
 <ul class="news-list">
   <li class="news-item">
     <time class="news-date">2026.05</time>
+    <div class="news-body"><i class="fas fa-trophy news-icon news-icon-award" aria-hidden="true"></i><span>One paper received the <strong>ISCAS 2026 (CCF-B) MSA-TC Best Paper Award</strong>.</span></div>
+  </li>
+  <li class="news-item">
+    <time class="news-date">2026.05</time>
     <div class="news-body"><i class="fas fa-file-circle-check news-icon news-icon-paper" aria-hidden="true"></i><span>One paper was accepted by <strong>IEEE TCSVT</strong>.</span></div>
   </li>
   <li class="news-item">

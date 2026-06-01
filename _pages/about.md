@@ -18,7 +18,7 @@ My research interests include agentic image generation, multimodal large languag
 
 <div class="job-market-note">
   <div>I am actively seeking full-time research scientist positions in agentic image generation, multimodal large language models, and media processing!</div>
-  <div>预计 2026 年底毕业。如果您有 Agentic 生成/多模态大模型相关的工作岗位，欢迎与我联系！</div>
+  <div>预计 2027 年年初毕业。如果您有 Agentic 生成/多模态大模型相关的工作岗位，欢迎与我联系！</div>
 </div>
 
 <span class="anchor" id="news"></span>

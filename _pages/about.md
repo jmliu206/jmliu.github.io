@@ -25,6 +25,10 @@ My research interests include agentic image generation, multimodal large languag
 # News
 <ul class="news-list">
   <li class="news-item">
+    <time class="news-date">2026.06</time>
+    <div class="news-body"><i class="fas fa-file-lines news-icon news-icon-paper" aria-hidden="true"></i><span>Our technical report <strong>SeFi-Image</strong> was released on <strong>arXiv</strong>.</span></div>
+  </li>
+  <li class="news-item">
     <time class="news-date">2026.05</time>
     <div class="news-body"><i class="fas fa-trophy news-icon news-icon-award" aria-hidden="true"></i><span>One paper received the <strong>ISCAS 2026 (CCF-B) MSA-TC Best Paper Award</strong>.</span></div>
   </li>
@@ -81,6 +85,12 @@ My research interests include agentic image generation, multimodal large languag
     <div class="news-body"><i class="fas fa-trophy news-icon news-icon-award" aria-hidden="true"></i><span>One paper was recognized as a <strong>Best Paper Finalist</strong> at <strong>PCS 2022</strong>.</span></div>
   </li>
 </ul>
+
+<span class="anchor" id="technical-reports"></span>
+# Technical Reports
+Technical reports are listed here.
+
+{% include technical-reports.html %}
 
 <span class="anchor" id="pre-prints"></span>
 # Pre-Prints

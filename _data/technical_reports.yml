@@ -7,5 +7,7 @@
   image: "https://arxiv.org/html/2606.22568v3/figures/title/sefi-title-logo-sample.png"
   paper_url: "https://arxiv.org/pdf/2606.22568"
   arxiv_url: "https://arxiv.org/abs/2606.22568"
+  code_url: "https://github.com/jmliu206/SeFi-Image"
+  project_url: "https://jmliu206.github.io/sefi-web/"
   note: "Technical Report"
   order: 10

@@ -26,7 +26,7 @@ My research interests include agentic image generation, multimodal large languag
 <ul class="news-list">
   <li class="news-item">
     <time class="news-date">2026.06</time>
-    <div class="news-body"><i class="fas fa-file-lines news-icon news-icon-paper" aria-hidden="true"></i><span>Our technical report <strong>SeFi-Image</strong> was released on <strong>arXiv</strong>.</span></div>
+    <div class="news-body"><i class="fas fa-file-lines news-icon news-icon-paper" aria-hidden="true"></i><span>Our technical report on <strong>SeFi-Image</strong>, a <strong>T2I foundation model</strong>, was released on <strong>arXiv</strong>.</span></div>
   </li>
   <li class="news-item">
     <time class="news-date">2026.05</time>

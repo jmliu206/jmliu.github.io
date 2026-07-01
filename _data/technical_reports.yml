@@ -1,0 +1,10 @@
+- title: "SeFi-Image: A Text-to-Image Foundation Model with Semantic-First Diffusion"
+  authors: "SeFi-Team"
+  venue: "Technical report, arXiv:2606.22568"
+  year: 2026
+  badge: "arXiv 2026"
+  abbr: "SeFi"
+  paper_url: "https://arxiv.org/pdf/2606.22568"
+  arxiv_url: "https://arxiv.org/abs/2606.22568"
+  note: "Technical Report"
+  order: 10

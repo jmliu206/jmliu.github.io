@@ -4,6 +4,7 @@
   year: 2026
   badge: "arXiv 2026"
   abbr: "SeFi"
+  image: "images/papers/sefi_image_arxiv2026.jpg"
   paper_url: "https://arxiv.org/pdf/2606.22568"
   arxiv_url: "https://arxiv.org/abs/2606.22568"
   note: "Technical Report"

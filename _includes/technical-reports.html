@@ -1,0 +1,31 @@
+{% assign technical_reports = site.data.technical_reports | sort: "order" %}
+{% for report in technical_reports %}
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">{{ report.badge }}</div>
+      {% if report.image %}
+        <img src="{{ report.image | relative_url }}" alt="{{ report.abbr }} overview">
+      {% else %}
+        <div class="paper-box-placeholder">{{ report.abbr }}</div>
+      {% endif %}
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <p class="paper-title"><strong>{% if report.paper_url %}<a href="{{ report.paper_url }}" target="_blank" rel="noopener noreferrer">{{ report.title }}</a>{% else %}{{ report.title }}{% endif %}</strong></p>
+    <p class="paper-authors"><span>{{ report.authors | replace: 'Jinming Liu', '<strong>Jinming Liu</strong>' }}</span></p>
+    <div class="paper-meta">
+      <span class="paper-venue"><em><strong>{{ report.venue }}</strong></em></span>
+      {% if report.note %}
+      <span class="paper-tags">
+        <span class="paper-tag paper-tag-note">{{ report.note }}</span>
+      </span>
+      {% endif %}
+    </div>
+    <p class="paper-links">
+      {% if report.paper_url %}<a href="{{ report.paper_url }}" target="_blank" rel="noopener noreferrer">PDF</a>{% endif %}
+      {% if report.arxiv_url %}<a href="{{ report.arxiv_url }}" target="_blank" rel="noopener noreferrer">arXiv</a>{% endif %}
+    </p>
+  </div>
+</div>
+{% endfor %}

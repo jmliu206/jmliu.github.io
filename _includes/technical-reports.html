@@ -5,7 +5,12 @@
     <div>
       <div class="badge">{{ report.badge }}</div>
       {% if report.image %}
-        <img src="{{ report.image | relative_url }}" alt="{{ report.abbr }} overview">
+        {% assign report_image = report.image %}
+        {% if report_image contains '://' %}
+          <img src="{{ report_image }}" alt="{{ report.abbr }} overview">
+        {% else %}
+          <img src="{{ report_image | relative_url }}" alt="{{ report.abbr }} overview">
+        {% endif %}
       {% else %}
         <div class="paper-box-placeholder">{{ report.abbr }}</div>
       {% endif %}
